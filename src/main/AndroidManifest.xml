@@ -1,0 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="paswdbkp.tsl.com.articalslibrary">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <activity
+            android:name=".modasta.CategoryListActivityModasta"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".modasta.ModastaArticleListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modasta.ModastaArticleDetailActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

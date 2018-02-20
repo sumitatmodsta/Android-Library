@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ArticalsLibrary</string>
+    <string name="title_consult_doctor">Consult top doctors</string>
+    <string name="specialist_doctor">Consult a top</string>
+</resources>

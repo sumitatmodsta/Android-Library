@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <paswdbkp.tsl.com.articalslibrary.modasta.Utils.ModastaResizableImageView
+        android:id="@+id/article_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:background="#ECECEC"
+        android:adjustViewBounds="true"
+        android:src="@drawable/yoga" />
+
+    <TextView
+        android:id="@+id/article_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/article_thumbnail"
+        android:layout_marginBottom="8dp"
+        android:background="#80000000"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:padding="8dp"
+        android:text="Blocked kjbf ke f  h hh r brbvbvb buvrubvrb vrivbriu vbr vr rbvir bvbrib vrbvrbvr bvirvb br vb rvbvbrbvb rvrbv rbvbbr brvubr"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/article_describtion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_thumbnail"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.3"
+        android:maxLines="2"
+        android:padding="6dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:paddingTop="8dp"
+        android:text="Dummy text this registration api hahahasdfskldfjsldk klj lskdjf lksdjflsdjf"
+        android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/article_describtion"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#BDBDBD" />
+
+        <TextView
+            android:id="@+id/tv_editor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#FFFFFF"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="By Modasta Editorial"
+            android:textColor="#BDBDBD" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
